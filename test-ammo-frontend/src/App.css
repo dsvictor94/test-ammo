@@ -1,0 +1,9 @@
+/* 
+  There ara a bug relative to use import inside styled-components
+  that cause the font be reimported every time the style change
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
